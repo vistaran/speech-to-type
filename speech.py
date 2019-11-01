@@ -13,6 +13,7 @@ from pynput.keyboard import Key, Controller
 #which device ID to specifically look for incase the microphone
 #is not working, an error will pop up saying "device_id undefined"
 
+# Adjust microphone according to your available USB devices. Available from mic_list
 #enter the name of usb microphone that you found
 #using lsusb
 #the following name is only used as an example
