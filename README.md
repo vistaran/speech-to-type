@@ -1,3 +1,5 @@
+![Speech to type](https://i.imgur.com/ZmpqVy5.png?1)
+
 # Speech To Type
 Basic python script that continuously listens to your voice and transforms it to keyboard typing events.
 
