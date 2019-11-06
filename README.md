@@ -15,6 +15,14 @@ Basic python script that continuously listens to your voice and transforms it to
 
 `sudo pip3 install pynput`
 
+## Configuring Microphones
+
+Make sure to change your mic name, sample rate and chunk size to appropriate plugged in device. In my case device name is following.
+
+`mic_name = "Plantronics .Audio 628 USB: Audio (hw:2,0)"`
+
+You can get list of available mics from `sr.Microphone.list_microphone_names()` function.
+
 ## Run
 
 `python3 speech.py`
